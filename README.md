@@ -7,7 +7,7 @@ Pequeño proyecto para la universidad de Granada. Consiste en un simulador del a
 
 ## Código
 
-En el repositorio se encuentran los módulos token_bucket.py y tbmain.py. El primero contiene la clase TokenBucket, donde están implementados tanto el algoritmo del cubo de testigos, como distintas políticas que puede segir, además del paso de un tiempo ficticeo, distintas variables de configuración como el tamaño del cubo o un sistema para incorporar un envío de tráfico a un supuesto dispositivo que implemente este sistema.
+En el repositorio se encuentran los módulos **token_bucket.py** y **tbmain.py**. El primero contiene la clase TokenBucket, donde están implementados tanto el algoritmo del cubo de testigos, como distintas políticas que puede segir, además del paso de un tiempo ficticeo, distintas variables de configuración como el tamaño del cubo o un sistema para incorporar un envío de tráfico a un supuesto dispositivo que implemente este sistema.
 
 En general, un código que haga uso de esta clase deberá crear un patrón consistente en una lista de túplas. Cada tupla representa un número de paquetes y el tamaño medio de estos. También deberá de cambiar el "mode" de la instancia a 1,2 o 3, dependiendo de la política que se desee representar y deberá ejecutar el método begin() para observar los resultados.
 
