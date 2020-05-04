@@ -5,7 +5,7 @@
 
 Pequeño proyecto para la universidad de Granada. Consiste en un simulador del algoritmo "Cubo de testigos" implementado por distintos sistemas para regular la banda ancha disponible en un dispositivo con el fin de moldear el tráfico según las necesidades particulares, muchas veces para cumplir un contrato de QoS con un cliente por parte de un proovedor de servicio.
 
-# Código
+## Código
 
 En el repositorio se encuentran los módulos token_bucket.py y tbmain.py. El primero contiene la clase TokenBucket, donde están implementados tanto el algoritmo del cubo de testigos, como distintas políticas que puede segir, además del paso de un tiempo ficticeo, distintas variables de configuración como el tamaño del cubo o un sistema para incorporar un envío de tráfico a un supuesto dispositivo que implemente este sistema.
 
